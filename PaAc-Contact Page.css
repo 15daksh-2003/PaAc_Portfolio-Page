@@ -93,6 +93,7 @@ header > div {
     border-radius:5px;
     border:2px solid grey;
     outline:none;
+    box-sizing:border-box;
 }
 #textarea{
     height:150px;
