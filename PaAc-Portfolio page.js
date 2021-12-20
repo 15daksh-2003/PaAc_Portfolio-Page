@@ -2,6 +2,7 @@ var home = document.getElementById('home');
 var main_website = document.getElementById('iit_website');
 var team = document.getElementById('team');
 var about_us = document.getElementById('View-next');
+var contact = document.getElementById('contact');
 
 home.addEventListener('click', function () {
     window.location.href = "PaAc-Portfolio page.html";
@@ -17,4 +18,8 @@ team.addEventListener('click', function () {
 
 about_us.addEventListener('click', function () {
     location.href = "#About_page";
+})
+
+contact.addEventListener('click', function () {
+    location.href = "PaAc-Contact Page.html";
 })
